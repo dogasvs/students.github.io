@@ -1,0 +1,55 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0 auto;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  background-color: pink;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+.siralama {
+  display: flex;
+}
+
+.girlslist, .manlist  {
+  background-color: azure;
+  border: 1px solid azure;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.girls, .man {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+}
+
+li {
+  width: 150px;
+  padding: 10px;
+  border: 1px solid red;
+  box-shadow: 4px 5px pink;
+  border-radius: 10px;
+}
+
+h2 {
+  margin-bottom: 16px;
+}
